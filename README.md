@@ -36,10 +36,12 @@ Then open on any web browser : http://localhost:8080/
 ### To run the project with ADMIN :
 
 Create a new user in the application with the following informations :
+```
 Prénom : Admin
 Nom : Admin
 Email : admin@admin.com
 Mot de passe : Admin23!
+```
 
 In mysql => use groupomania_development;
             UPDATE Users SET admin = '1' WHERE email = 'admin@admin.com';
