@@ -43,8 +43,11 @@ Email : admin@admin.com
 Mot de passe : Admin23!
 ```
 
-In mysql => use groupomania_development;
-            UPDATE Users SET admin = '1' WHERE email = 'admin@admin.com';
+In mysql => 
+````
+use groupomania_development;
+UPDATE Users SET admin = '1' WHERE email = 'admin@admin.com';
+```
 
 ## What is this project ?
 
