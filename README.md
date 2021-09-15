@@ -42,12 +42,12 @@ Nom : Admin
 Email : admin@admin.com
 Mot de passe : Admin23!
 ```
-
-In mysql => 
+Then connect to mysql in your terminal with your username and password and copy the following instructions
 ```
 use groupomania_development;
 UPDATE Users SET admin = '1' WHERE email = 'admin@admin.com';
 ```
+You're ready to moderate !
 
 ## What is this project ?
 
